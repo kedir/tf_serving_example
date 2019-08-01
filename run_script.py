@@ -16,4 +16,4 @@ zipf = zipfile.ZipFile('checkpoints.zip', 'w', zipfile.ZIP_DEFLATED)
 for file in model_files:
     zipf.write(file)
 
-files.download('./checkpoins.zip')
+files.download('./checkpoints.zip')
