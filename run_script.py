@@ -4,7 +4,6 @@ Created on Wed Jul 31 21:48:50 2019
 
 @author: Kedir
 """
-from colab_util import *
 from google.colab import files
 import glob 
 import svnh_semi_supervised_model_train as train
