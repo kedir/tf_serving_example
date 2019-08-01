@@ -132,7 +132,7 @@ def main():
 
     # train the model
     batch_size = 128
-    epochs = 25
+    epochs = 10
     _, _, _ = train(net, dataset, epochs, batch_size, z_size)
 
 
